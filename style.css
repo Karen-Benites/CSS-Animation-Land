@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.background {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    border: 8px solid black;
+    border-radius: 40px;
+    background-color: lightcyan;
+    box-shadow: 0 20px 32px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.title{
+    padding: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.layer{
+    position: absolute;
+    bottom: 0;
+}
+
+.layer-1{
+    height: 450px;
+    left: 90px;
+}
+
+.bunny{
+    background-color: white;
+    width: 60px;
+}
+
+.layer-2{
+    height: 450px;
+    right: 60px;
+}
+
+.layer-3{
+    width: 200px;
+    height: 400px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.wall{
+    background-color: wheat;
+    bottom: 0;
+    box-shadow: 0 24px 24px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.layer-4{
+    height: 300px;
+    left: 20px;
+}
+
+.layer-5{
+    width: 200px;
+    height: 250px;
+    left: 0;
+}
+
+.layer-6{
+    height: 200px;
+    right: 36px;
+}
+
+.layer-7{
+    width: 150px;
+    height: 160px;
+    right: 0;
+}
+
+.bush{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.layer-8{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: green;
+}
+
+.layer-9{
+    background-color: white;
+    left: 0;
+}
+
+.layer-10{
+    background-color: white;
+    right: 0;
+}
